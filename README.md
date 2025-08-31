@@ -1,6 +1,8 @@
 # PFA - Personal Finance Assistant
 
 Backend: Node + Express + SQLite
+
+
 Frontend: React + Vite
 
 ## Quick start
@@ -20,7 +22,8 @@ cd frontend
 npm install
 npm run dev
 ```
-Starts on http://localhost:5173 ```
+Starts on http://localhost:5173 
+```
 
 ### Receipt OCR
 Upload a POS receipt image (PNG/JPG) or PDF on the "Receipt OCR" card. The server uses Tesseract.js (for images) and pdf-parse (for PDFs). Parsing is currently in naive stage.
